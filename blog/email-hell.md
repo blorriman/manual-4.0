@@ -1,5 +1,5 @@
 ---
-id: email-hell
+slug: email-hell
 # slug: email-hell
 title: Better Group Email Discussions
 # author: Yangshun Tay
