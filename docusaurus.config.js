@@ -46,6 +46,7 @@ module.exports = {
 			{
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
+					remarkPlugins: [require('remark-import-partial')],
 					// Please change this to your repo.
 					// editUrl:
 					// 	'https://github.com/facebook/docusaurus/edit/master/website/',

@@ -39,10 +39,6 @@
 	margin-left: '20px,';
 }
 
-/* [class^='blogPostTitle'] {
-	font-size: 2rem;
-} */
-
 @media screen and (max-width: 996px) {
 	:root {
 		--ifm-font-size-base: 18px;
