@@ -8,8 +8,9 @@ const FeatureList = [
 		Svg: require('../../static/img/easy-to-use.svg').default,
 		description: (
 			<>
-				Docusaurus was designed from the ground up to be easily installed and
-				used to get your website up and running quickly.
+				LORROS is designed to be simple to use for all members of your group,
+				but robust enough for the Administrator to manage multiple groups,
+				committees (sub groups) and guests.
 			</>
 		),
 	},
@@ -18,8 +19,9 @@ const FeatureList = [
 		Svg: require('../../static/img/available.svg').default,
 		description: (
 			<>
-				Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-				ahead and move your docs into the <code>docs</code> directory.
+				Getting Group members (committees, boards, etc.) together for meetings
+				can often be a daunting task. LORROS is online an available all the
+				time. No more scheduling conflicts!
 			</>
 		),
 	},
@@ -28,8 +30,9 @@ const FeatureList = [
 		Svg: require('../../static/img/better.svg').default,
 		description: (
 			<>
-				Extend or customize your website layout by reusing React. Docusaurus can
-				be extended while reusing the same header and footer.
+				When a group makes a decision collectively, its judgment can be keener
+				than an individual. Through discussion, and collaboration, groups can
+				identify more complete and robust solutions.
 			</>
 		),
 	},
