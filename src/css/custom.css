@@ -14,18 +14,83 @@
 	--ifm-color-primary-light: #26c6da;
 	--ifm-color-primary-lighter: #4dd0e1;
 	--ifm-color-primary-lightest: #80deea;
-	/* --ifm-color-primary-dark: rgb(33, 175, 144);
-	--ifm-color-primary-darker: rgb(31, 165, 136);
-	--ifm-color-primary-darkest: rgb(26, 136, 112);
-	--ifm-color-primary-light: rgb(70, 203, 174);
-	--ifm-color-primary-lighter: rgb(102, 212, 189);
-	--ifm-color-primary-lightest: rgb(146, 224, 208); */
-	/* --ifm-code-font-size: 95%; */
+
+	--ifm-color-success: #43a047;
+	--ifm-color-info: #00acc1;
+	--ifm-color-warning: #ffa000;
+	--ifm-color-danger: #e53935;
+
 	--ifm-code-font-size: 90%;
 	--ifm-font-color-base: #616161;
 
 	--ifm-heading-font-weight: 400;
 	--ifm-heading-line-height: 1;
+}
+
+.docusaurus-highlight-code-line {
+	background-color: rgb(72, 77, 91);
+	display: block;
+	margin: 0 calc(-1 * var(--ifm-pre-padding));
+	padding: 0 var(--ifm-pre-padding);
+}
+
+.alert {
+	background-color: var(--ifm-background-surface-color);
+	border-color: var(--ifm-alert-border-color);
+	color: var(--ifm-alert-border-color);
+}
+
+.alert a {
+	color: var(--ifm-color-primary);
+	text-decoration: var(--ifm-link-decoration);
+}
+
+.alert .admonition-heading {
+	color: var(--ifm-alert-border-color);
+}
+
+.admonition-icon svg {
+	fill: var(--ifm-alert-border-color);
+	stroke: var(--ifm-alert-border-color);
+	margin-right: 12px;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+.admonition {
+	border: none;
+	background-color: var(--ifm-color-emphasis-100);
+	border-radius: 0;
+	border-left-width: 0.3rem;
+	border-left-style: solid;
+	border-color: var(--ifm-alert-border-color);
+}
+
+details {
+	background-color: var(--ifm-color-emphasis-100);
+	border-radius: 0;
+	border-left-width: 0.3rem;
+	border-left-style: solid;
+	border-color: var(--ifm-color-emphasis-900);
+	padding: var(--ifm-alert-padding-vertical) var(--ifm-alert-padding-horizontal);
+	margin-bottom: 1em;
+}
+
+summary {
+	outline: none;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+details[open] summary {
+	margin-bottom: 1em;
+}
+
+.alert--secondary {
+	--ifm-alert-background-color: var(--ifm-color-emphasis-900);
+	--ifm-alert-border-color: var(--ifm-color-emphasis-900);
 }
 
 .docusaurus-highlight-code-line {
