@@ -25,7 +25,13 @@
 
 	--ifm-heading-font-weight: 400;
 	--ifm-heading-line-height: 1;
+	--ifm-h1-font-size: 2rem
+	--ifm-h2-font-size: 1rem
 }
+
+h1 { font-size: 2rem;}
+h2 { font-size: 1.5rem;}
+h3 { font-size: 1.25rem;}
 
 .docusaurus-highlight-code-line {
 	background-color: rgb(72, 77, 91);
