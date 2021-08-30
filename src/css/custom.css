@@ -15,7 +15,9 @@
 	--ifm-color-primary-lighter: #4dd0e1;
 	--ifm-color-primary-lightest: #80deea;
 
-	--ifm-blockquote-background-color: #F5F5F5;
+	--ifm-blockquote-background-color: #ffffff;
+	/* --ifm-blockquote-background-color: #FAF9F6; */
+	/* --ifm-blockquote-background-color: #F5F5F5; */
 	--ifm-blockquote-foreground-color: #546E7A;
 	--ifm-blockquote-border-color: #90A4AE;
 
