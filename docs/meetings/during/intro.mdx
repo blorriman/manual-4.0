@@ -12,7 +12,9 @@ import useBaseUrl from '@docusaurus/useBaseUrl'
 
 **Comments** should be relative to the **Agenda Item** _(**Replies** should be specific to a **Comment**)_.
 
-<img src={useBaseUrl('/img/global/addingComments-2.gif')} />
+<center>
+	<img src={useBaseUrl('/img/global/addingComments-2.gif')} />
+</center>
 
 ### Add Files
 
@@ -28,13 +30,17 @@ The **Files** are accessible from both the Files tab at the top of the Meeting, 
 
 When Replying to a Comment, you will see the Reply To This Comment tab. When you have added your Reply, you can also [add Files](#add-files) before ubmitting your Reply.
 
-<img src={useBaseUrl('/img/global/addingReplies-2.gif')} />
+<center>
+	<img src={useBaseUrl('/img/global/addingReplies-2.gif')} />
+</center>
 
 ### Expanding Comments & Replies
 
 {@import ../../../global/expanding.mdx}
 
-<img src={useBaseUrl('/img/global/expanding.gif')} />
+<center>
+	<img src={useBaseUrl('/img/global/expanding.gif')} />
+</center>
 
 ### Sorting Comments
 
@@ -42,18 +48,68 @@ When Replying to a Comment, you will see the Reply To This Comment tab. When you
 
 ## Voting on Motions
 
-If the Agenda has a Motion _(or multiple Motions)_, it's important that you vote.
-
 ### Quorum
 
-The Quorum for each group
+The **Quorum** can be found by clicking the **Voting** tab.
 
-### For
+<center>
+	<img src={useBaseUrl('/img/meetings/quorum.gif')} />
+</center>
 
-### Against
+:::info Info
+The **Quorum** for each group defaults to 50% +1 of the voting Members, however the Group Admin can manually change the quorum.
+:::
 
-### Abstain
+### Move/Second
+
+As per **Robert's Rules of Order**, a Motion **must** be Moved and Seconded before Members can vote on it.
+
+<center>
+	<img src={useBaseUrl('/img/meetings/move.gif')} />
+</center>
+
+:::note Note
+In LORROS _(as a convenience)_, the Mover can vote prior to the Motion being Seconded; however, the vote is not registered until the Motion is Seconded.
+:::
+
+### Voting
+
+<center>
+	<img src={useBaseUrl('/img/meetings/voting.gif')} />
+</center>
+
+Once you have voting, you can change your vote at any time prior to the end of the Meeting _(this is only available with **Blind** voting)_.
+
+:::note Note
+LORROS defaults to **Blind** voting; however, the Group Admin can select **Visible** and/or **Secret** voting.
+Learn more about how LORROS handles the different ballot options _([click here](../voting/intro#ballot-options))_.
+:::
 
 ### Participants
 
-Learn more about how LORROS handles Voting _([click here](../voting/intro))_.
+In **Blind** voting _(default)_, the Members who have voted are shown as **Participants**.
+
+<center>
+	<img src={useBaseUrl('/img/meetings/participants.gif')} />
+</center>
+
+:::note Note
+If **Visiible** voting is selected, the results of the voting is displayed.
+:::
+
+### Amend the Motion
+
+Once a Motion has been Moved and Seconded, any voting Member can **Amend the Motion**
+
+:::caution Caution
+**Amendments** must be _germane_ to the Motion and **NOT** a new Motion.
+:::
+
+<center>
+	<img src={useBaseUrl('/img/meetings/amend-1.jpg')} />
+</center>
+
+The Member amending the Motion is the Mover and a Seconder is required before anyone can vote on the Amenendment.
+
+:::note Note
+To see how LORROS calculates voting _([click here](../voting/intro#voting))_
