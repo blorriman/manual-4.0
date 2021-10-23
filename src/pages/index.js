@@ -18,12 +18,28 @@ function HomepageHeader() {
 				<img src={useBaseUrl('/img/Lorros_lrg-wht.png')} />
 				<p className='hero__subtitle'>{siteConfig.tagline}</p>
 				<div className={styles.buttons}>
-					<Link
-						className='button button--secondary button--lg'
+					<a
+						className='button button--info button--lg margin-left--xs margin-right--xs'
+						href='https://lorros34.meteorapp.com/'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						Log In
+					</a>
+					<a
+						className='button button--info button--lg margin-left--xs margin-right--xs'
+						href='https://lorros34.meteorapp.com/auth/register'
+						target='_blank'
+						rel='noopener noreferrer'
+					>
+						Register
+					</a>
+					{/* <Link
+						className='button button--info button--lg margin-left--xs margin-right--xs'
 						to='/docs/intro'
 					>
-						Get Started
-					</Link>
+						User Manual
+					</Link> */}
 				</div>
 			</div>
 		</header>
