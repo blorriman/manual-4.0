@@ -3,6 +3,12 @@ sidebar_position: 1
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl'
+import AddLinkss from '../../../global/addLinks.mdx'
+import OptInOut from '../../../global/optInOut.mdx'
+import Expanding from '../../../global/expanding.mdx'
+import Sorting from '../../../global/sorting.mdx'
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
 # Common Actions
 
@@ -24,13 +30,16 @@ When Replying to a Comment, you will see the Reply To This Comment tab. When you
 	<img src={useBaseUrl('/img/global/addingReplies-2.gif')} />
 </center>
 
-## Expanding Comments & Replies
+## Reviewing Comments & Replies
 
-{@import ../../../global/expanding.mdx}
-
-## Sorting Comments
-
-{@import ../../../global/sorting.mdx}
+<Tabs>
+	<TabItem value='apple' label='Expanding' default>
+		<Expanding />
+	</TabItem>
+	<TabItem value='orange' label='Sorting'>
+		<Sorting />
+	</TabItem>
+</Tabs>
 
 ## Add Files to Submissions
 
@@ -40,27 +49,11 @@ Most submissions _(Comments, Replies, etc.)_ allow you to add files. Simply clic
 	<img src={useBaseUrl('/img/global/addFiles.gif')} />
 </center>
 
-<!-- ## Delete Files From Submissions
-
-Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Porttitor lacus luctus accumsan tortor posuere ac ut consequat semper. Pharetra diam sit amet nisl suscipit adipiscing bibendum. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed.
-
-<img src={useBaseUrl('/img/general usage/deleteFiles.jpg')} /> -->
-
-<!-- ## Edit Submission Files
-
-Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Porttitor lacus luctus accumsan tortor posuere ac ut consequat semper. Pharetra diam sit amet nisl suscipit adipiscing bibendum. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed.
-
-## Opening/Closing a text box
-
-Nascetur ridiculus mus mauris vitae ultricies leo integer malesuada. Porttitor lacus luctus accumsan tortor posuere ac ut consequat semper. Pharetra diam sit amet nisl suscipit adipiscing bibendum. Magna fermentum iaculis eu non diam phasellus vestibulum lorem sed.
-
-<img src={useBaseUrl('/img/general usage/text box.gif')} /> -->
-
 ## Add Links to Submissions
 
 In all **LORROS** submissions _(Comments, Replies, etc.)_, you can easily add **links**.
 
-{@import ../../../global/addLinks.mdx}
+<AddLinks />
 
 ## Opening Files
 
@@ -72,7 +65,7 @@ All **Files** for each Activity _(Discussion, Meeting, etc.)_ can be accessed fr
 
 ## Opt in/out of Emails
 
-{@import ../../../global/optInOut.mdx}
+<OptInOut />
 
 <!-- ## Keyword Search
 
