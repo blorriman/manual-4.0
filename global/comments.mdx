@@ -1,4 +1,8 @@
 import useBaseUrl from '@docusaurus/useBaseUrl'
+import Expanding from '../../global/expanding.mdx'
+import Sorting from '../../global/sorting.mdx'
+import Tabs from '@theme/Tabs'
+import TabItem from '@theme/TabItem'
 
 <center>
 	<img src={useBaseUrl('/img/global/addingComments-2.gif')} />
@@ -12,17 +16,16 @@ When Replying to a Comment, you will see the Reply To This Comment tab. When you
 	<img src={useBaseUrl('/img/global/addingReplies-2.gif')} />
 </center>
 
-## Expanding Comments & Replies - test
+## Expanding Comments & Replies
 
-{@import ../../../global/expanding.mdx}
-
-<center>
-	<img src={useBaseUrl('/img/global/expanding.gif')} />
-</center>
-
-## Sorting Comments
-
-{@import ../../../global/sorting.mdx}
+<Tabs>
+	<TabItem value='apple' label='Expanding' default>
+		<Expanding />
+	</TabItem>
+	<TabItem value='orange' label='Sorting'>
+		<Sorting />
+	</TabItem>
+</Tabs>
 
 ## Add Files to Submissions
 
