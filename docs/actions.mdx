@@ -3,10 +3,18 @@ sidebar_position: 6
 ---
 
 import useBaseUrl from '@docusaurus/useBaseUrl'
+import OptinOut from '../global/optInOut.mdx'
+import AddFiles from '../global/addFiles.mdx'
 
 # Actions
 
 **Actions** are items that are assigned to a Group Member and given a target date. All Members of the Group can see the Action and add Comments/Replies to help move tha Action along.
+
+:::success Info
+**Notices** - You will recieve an email from **LORROS** when an **Action** starts and when it is completed _(you cannot mute Notices)_.
+
+**Messages** - You will recieve an email from **LORROS** everytime a Member makes a Comment or Reply _(you can [mute Messages](#mute-emails))_
+:::
 
 ## Starting an Action
 
@@ -32,11 +40,17 @@ The Group Member **asigned** the Action, or any other Group Member can add Comme
 
 ### Add Files
 
-Simply click the **Add File** tab and follow the instructions.
+<AddFiles />
 
-<img src={useBaseUrl('/img/global/addFiles-2.gif')} />
+---
 
-The **Files** are accessible from both the Files tab at the top of the Action as well as the Paper Clip icon next to the Comment.
+<!-- Simply click the **Add File** tab and follow the instructions.
+
+<center>
+	<img src={useBaseUrl('/img/global/addFiles-2.gif')} />
+</center>
+
+The **Files** are accessible from both the Files tab at the top of the Action as well as the Paper Clip icon next to the Comment. -->
 
 ### Adding Replies
 
@@ -57,15 +71,9 @@ When Replying to a Comment, you will see the Reply To This Comment tab. When you
 	</TabItem>
 </Tabs>
 
-### Add Files
+### Mute emails
 
-Simply click the **Add File** tab and follow the instructions.
-
-<center>
-	<img src={useBaseUrl('/img/global/addFiles.gif')} />
-</center>
-
-The **Files** are accessible from both the Files tab at the top of the Action as well as the Paper Clip icon next to the Comment.
+<OptinOut />
 
 ## Completing an Action
 
